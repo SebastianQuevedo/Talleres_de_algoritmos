@@ -1,0 +1,25 @@
+a=float(input("digite la primera tarea de matematicas "))
+b=float(input("digite la segunda tarea de matematicas "))
+c=float(input("digite la tercera tarea de matematicas "))
+d= ((a+b+c)/3)*0.1
+e=float (input("digite la nota del examen de matematicas "))
+e_2=e*0.9
+e_3=e_2+d
+f=float(input("digite la primera tarea de fisica "))
+g=float(input("digite la segunda tarea de fisica "))
+h= ((f+g)/2)*0.2
+i=float (input("digite la nota del examen de fisica "))
+i_2=i*0.8
+i_3=i_2+h
+j=float(input("digite la primera tarea de Quimica "))
+k=float(input("digite la segunda tarea de quimica "))
+m=float(input("digite la tercera tarea de quimica "))
+n= ((j+k+m)/3)*0.15
+o=float (input("digite la nota del examen de Quimica "))
+p=o*0.85
+p_2=p+n
+print ("la nota de matematicas es: ", e_3)
+print ("la nota de fisica es: ", i_3)
+print ("la nota de Quimica es: ", p_2)
+z=(e_3+i_3+p_2)/3
+print ("el promedio de las materias sera: ",z)

@@ -1,0 +1,7 @@
+a=int(input("ingrese la cantidad de mujeres que hay "))
+b=int(input("ingrese la cantidad de hombres que hay "))
+c=a+b
+d=(a*100)/c
+e=100-d
+print("el porcentaje de hombres es: ",e, "%")
+print ("el porcentaje de mujeres es: ",d,"%")

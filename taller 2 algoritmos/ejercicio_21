@@ -1,0 +1,5 @@
+a=float(input("ingrese el precio al contado del computador "))
+b=float (input("ingrese el valor de cada cuota "))
+c=(b*12)-a
+d=(c*100)/a
+print("el recargo por pagar el computador a cuotas es ", d,"%")

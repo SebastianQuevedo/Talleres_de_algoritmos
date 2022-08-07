@@ -1,0 +1,3 @@
+a=float (input("ingrese el valor de el producto: "))
+b=(a*0.15)
+print ("el valor del producto: ",a-b)

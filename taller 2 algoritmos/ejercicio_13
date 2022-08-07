@@ -1,0 +1,23 @@
+a=int(input("ingrese la cantidad de billetes de 50000 "))
+b=int(input("ingrese la cantidad de billetes de 20000 "))
+c=int(input("ingrese la cantidad de billetes de 10000 "))
+d=int(input("ingrese la cantidad de billetes de 5000 "))
+e=int(input("ingrese la cantidad de billetes de 2000 "))
+f=int(input("ingrese la cantidad de billetes de 1000 "))
+g=int(input("ingrese la cantidad de billetes de 500 "))
+h=int(input("ingrese la cantidad de billetes de 100 "))
+A=a*50000
+B=b*20000
+C=c*10000
+D=d*5000
+E=e*2000
+F=f*1000
+G=g*500
+H=h*100  
+if (A>=0 and B>=0 and C>=0 and D>=0 and E>=0 and F>=0 and G>=0 and H>=0 ):
+  total=A+B+C+D+E+F+G+H
+  print ("el total del dinero en el banco es: ",total)
+
+else: 
+  print ("ingreso una cantidad de billetes negativa, por favor intentelo de nuevo")
+  

@@ -1,0 +1,6 @@
+
+a=float(input("ingrese el valor en metros"))
+b=39,27*a
+c=b/12
+print ("el valor en pulgadas es: ",b)
+print ("el valor en pies: ",c)

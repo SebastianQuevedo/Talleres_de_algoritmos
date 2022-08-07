@@ -1,0 +1,5 @@
+a=float(input ("¿cual es su capital? ")) 
+b=a*0.02
+c=a + b
+print ("su ganancia sera: ",b)
+print ("el total de su dinero sera: ", c)

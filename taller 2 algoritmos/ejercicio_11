@@ -1,0 +1,14 @@
+nombre=str (input("ingrese el nombre del empleado "))
+a=float (input("ingrese el pago por hora normal " ))
+b=float (input("ingrese el numero de horas normales trabajadas "))
+g=float (input("ingrese el numero de horas extra trabajadas "))
+hijos=int (input("ingrese el numero de hijos de "))
+d=a+(a*0.25) #pago horas extra
+e=(a*b)
+f=e-(e*0.14)
+h=f+(g*d)
+i=250000+(173000*hijos)+180000
+j=h+i
+print ("las deducciones son: ",e-f)
+print ("las bonificaciones son: ", i)
+print ("el sueldo final es: ", j)

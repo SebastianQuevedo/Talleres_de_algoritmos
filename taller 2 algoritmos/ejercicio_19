@@ -1,0 +1,7 @@
+a=int(input("ingrese la cantidad de naranjas que compro el vendedor "))
+b=float (input("ingrese el valor por docena de las naranjas "))
+c=float (input("cuanto obtuvo el vendedor despues de vender las naranjas "))
+d=(a/12)*b
+e=c-d
+f=(e*100)/d
+print ("el porcentaje de ganancia es ",f,"%")

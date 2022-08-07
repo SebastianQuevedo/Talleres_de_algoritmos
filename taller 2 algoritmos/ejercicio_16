@@ -1,0 +1,7 @@
+a=float (input("ingrese la cantidad de galones "))
+b=a*3.785 
+c=b*50.000
+if (c<0):
+  print("no puede ingresar valores negativos, intente de nuevo")
+else:
+  print ("el valor a pagar es: ",c, "COP")

@@ -1,0 +1,4 @@
+a=float (input("cual fue el precio total pagado "))
+b=float(input("cual era el precio de venta al publico "))
+c=100-(a*100)/b
+print ("el valor del descuento fue ",c,"%")

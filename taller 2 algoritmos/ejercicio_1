@@ -1,0 +1,5 @@
+a = int(input("ingrese la primera edad "))
+b=int(input("digite la segunda edad "))
+c=int(input("digite la tercera edad "))
+promedio=(a+b+c)/3
+print ("el promedio es: ", promedio)

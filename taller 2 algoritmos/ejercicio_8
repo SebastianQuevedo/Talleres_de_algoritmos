@@ -1,0 +1,13 @@
+import math
+a=float(input("ingrese el lado a "))
+b=float(input("ingrese el lado b "))
+c=float(input("ingrese el lado c "))
+s=(a+b+c)/2
+s_2= (s-a)
+s_3=(s-b)
+s_4=(s-c)
+s_5=s_2*s_3*s_4
+s_6=s*s_5
+
+area= s_6**(1/2)
+print ("el area es: ",area)

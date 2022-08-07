@@ -1,0 +1,10 @@
+A=float(input("ingrese el presupuesto del hospital "))
+b=A*0.3
+c=A*0.4
+if (A>0):
+  print ("el presupuesto para ginecologia es: ",c)
+  print ("el presupuesto para traumatologia es: ",b)
+  print ("el presupuesto para pediatria es: ",b)
+
+else:
+  print ("no puede ser un presupuesto de 0 o negativo, vuelva a intentar")

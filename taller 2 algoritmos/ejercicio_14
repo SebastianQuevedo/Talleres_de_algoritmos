@@ -1,0 +1,12 @@
+a=float (input("ingrese el valor de la lectura anterior "))
+b=float (input("ingrese el valor de la lectura actual "))
+Kw=float (input("ingrse el costo por kilovatio "))
+c=b-a
+p=Kw*c
+if (a<b):
+  print ("La cantidad de kilovatios consumidos es ",c, "Kw")
+  print ("y el costo es: ",p)
+
+else : 
+  print ("la medida actual no puede ser menor a la anterior")
+
