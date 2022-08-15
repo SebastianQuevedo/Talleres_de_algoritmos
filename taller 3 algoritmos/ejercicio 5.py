@@ -1,0 +1,5 @@
+a=int(input("cuantos de los departamentos superaron el 33% de ventas "))
+b=int(input("cuantos vendedores recibiran la bonificacion "))
+c=float(input("cuanto ganan los vendedores"))
+d=c+(c*0.2)
+print ("los vendedores ganaran ",d,"COP")
